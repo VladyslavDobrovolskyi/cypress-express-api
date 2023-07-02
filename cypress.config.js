@@ -10,5 +10,6 @@ module.exports = defineConfig({
     supportFile: false,
     video : false,
     browser:'chrome',
+    baseUrl:'http://172.29.192.187:3000'
   },
 });
