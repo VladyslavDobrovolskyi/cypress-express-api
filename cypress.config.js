@@ -5,7 +5,7 @@ module.exports = defineConfig({
         setupNodeEvents(on, config) {
             // implement node event listeners here
         },
-        supportFile: false,
+        supportFile: 'cypress/support/commands.js',
         video: false,
         browser: 'chrome',
         baseUrl: 'http://172.29.194.13:3000',
